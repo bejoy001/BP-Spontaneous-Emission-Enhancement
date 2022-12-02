@@ -87,8 +87,7 @@ for k=1:length(a)
         end
         
         gamma = 1i*trapz(kx, internal_int)/(8*pi^2);
-        PF(k,j) = 1+(6*pi/K0(j))*imag(gamma);
-        
+        PF(k,j) = 1+(6*pi/K0(j))*imag(gamma);       
         
     end
 end
